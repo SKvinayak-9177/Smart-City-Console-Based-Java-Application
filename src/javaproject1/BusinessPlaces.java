@@ -28,7 +28,7 @@ public class BusinessPlaces{
 		}
 		catch(Exception e)
 		{
-			e.printStackTrace();
+			System.out.println("\n\n"+project.WHITE_BACKGROUND+project.RED+project.BOLD+project.UNDERLINE+">>>There are no Business venues for now Pleace visit this page after some time or choose another option of your choice<<<"+project.RESET+"\t\t\t\t\t\n\n");
 		}
 	}
 }
